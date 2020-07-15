@@ -48,14 +48,7 @@ pip2 install colorama
 
 gem install lolcat
 
-chmod +x *
-
-cd core
-git clone https://github.com/TechnicalMujeeb/Termux-speak.git
-cd Termux-speak
-chmod +x *
-cd ..
-cd ..
+rm -rf Termux-speak
 
 echo "$green installation Finished !" 
 echo ""
